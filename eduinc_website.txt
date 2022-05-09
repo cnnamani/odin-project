@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document.html</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: rgba(31, 41, 55, 0.8);
+        }
+
+        .flex-container {
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+            width: 80%;
+
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            width: 20%;
+        }
+
+        .main {
+            display: flex;
+            margin: auto;
+            width: 25%;
+            height: 500px;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 180px;
+            margin-right: 500px;
+        }
+
+        .letsgo {
+            display: flex;
+            margin: auto;
+            justify-content: space-around;
+            min-height: 250px;
+            width: 50%;
+
+
+
+        }
+
+        .main-2 {
+
+            margin-left: 10px;
+            justify-content: space-around;
+            width: 180px;
+
+        }
+
+        img {
+            width: 350px;
+            margin: 100px;
+            height: 250px;
+            ;
+        }
+
+        .letsgo div {
+            border: 3px solid lightblue;
+            padding: 10px;
+            margin: 20px;
+            flex: 1 1 auto;
+            border-radius: 10%;
+            width: 1px;
+            color: rgba(31, 41, 55, 0.8);
+        }
+
+        .quote {
+            display: flex;
+            padding: 100px;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        .quote blockquote {
+            margin: auto;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="flex-container">
+            <div>Edu Inc</div>
+            <nav>
+                <a>contact</a>
+                <a>career</a>
+
+            </nav>
+        </div>
+        <div class="main">
+            <div class="main-1">
+                <h1>Our Mission</h1>
+
+                <p class="main-2">"Leverage Moore's Law's power to bring smart,
+                    linked devices to everyone on the planet."
+
+                </p>
+
+
+
+                <button src="https://www.javatpoint.com/html-classes">sign up</button>
+
+
+            </div>
+            <img src=https://blog.unpakt.com/wp-content/uploads/2016/01/13181546_l-businessman-hand-point-on-virtual-business-network-in-board-room-810x534.jpg
+                width="100%">
+    </header>
+
+    <div class="letsgo">
+
+        <div>
+            <h3>We provide excellent customer service.</h3>
+            <p>Your satisfacions is our pride</p>
+        </div>
+
+        <div>
+            <h3>Tech doctor</h3>
+            <p><span> key to success are
+                    the tools in our hand.</span>
+            </p>
+        </div>
+
+        <div>
+            <h3>Other services</h3>
+            <p>promote your business here!</p>
+        </div>
+
+
+
+
+    </div>
+    <div class="quote">
+
+        <blockquote><span class="blues">"This is an ispiring quote,or a testimonial from a
+                customer.Maybe its just filling up space,or Maybe
+                people will actually read it.Who knows? All I know
+                is tha it looks nice."</span>
+        </blockquote>
+
+    </div>
+    <!-- footer -->
+    <footer style="background-color:lightgray; padding: 15px;">
+        <span class="hero-secondary"> Copy right @ The edu inc Project 2022 </span>
+    </footer>
+</body>
+
+</html>
